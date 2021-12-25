@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+.button-toolip{
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.tooltip {
+  margin-right: 230px;
+  position: relative;
+  display: inline-block;
+  width: 88px;
+  height: 43px;
+  border: 1px solid #4690FF;
+  border-radius: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #639EF8;
+  background: #FFFFFF;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 215px;
+  height: 30px;
+  padding-top: 10px ;
+  background: #4B4B4B;
+  color: #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.tooltip .tooltiptext.bottom{
+  bottom: 120%;
+  left: 45%;
+  margin-left: -100px;
+
+}
+
+.tooltip .tooltiptext.right{
+  bottom: 0%;
+  left: 200%;
+  margin-left: -80px;
+
+}
+
+.tooltip .tooltiptext.top{
+  bottom: -120%;
+  left: 45%;
+  margin-left: -100px;
+}
+
+.tooltip .tooltiptext.left{
+  bottom: 0%;
+  left: -170%;
+  margin-left: -75px;
+
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #4B4B4B transparent transparent transparent;
+}
+
+.tooltip .tooltiptext.bottom::after{
+  top: 100%;
+  left: 45%;
+  border-width: 5px;
+}
+
+.tooltip .tooltiptext.right::after{
+  top: 40%;
+  left: -4.5%;
+  border-width: 5px;
+  transform: rotate(90deg);
+}
+
+.tooltip .tooltiptext.top::after{
+  top: -24%;
+  left: 47%;
+  border-width: 5px;
+  transform: rotate(180deg);
+}
+
+.tooltip .tooltiptext.left::after{
+  top: 40%;
+  left: 100%;
+  border-width: 5px;
+  transform: rotate(270deg);
+}
+
+
+.tooltip:hover .tooltiptext {
+  
+  visibility: visible;
+}
+
+

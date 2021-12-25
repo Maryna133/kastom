@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style-button.css">
+    <link rel="stylesheet" href="./style/style-button-radio.css">
+    <link rel="stylesheet" href="./style/style-checkbox.css">
+    <link rel="stylesheet" href="./style/style-switch.css">
+    <link rel="stylesheet" href="./style/style-toolip.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <div class="button">
+            <div class="primary">
+                <p class="text">Buttons Primary</p>
+                <a class="primary-button" >Button</a>
+                <a class="primary-button-disabled" >Button</a>
+            </div>
+            <div class="secondary">
+                 <p class="text">Buttons Secondary</p>
+                 <a class="secondary-button">Button</a>
+                <a class="secondary-button-disabled" >Button</a>
+            </div>
+        </div>
+        <div class="button-radio">
+            <p class="text">Radio button</p>
+                <label class="radio">
+                    <input type="radio" value="1" name="label" > 
+                    Label
+                    <span></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" value="2" name="label" checked  > 
+                    Label
+                    <span ></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" value="3" name="label"   disabled> 
+                    Label
+                    <span ></span>
+                </label>
+                
+        </div>
+        <div class="button-checkbox">
+            <p class="text">Checkbox</p>
+            <label class="checkbox">
+                <input type="checkbox" value="1" name="label" > 
+                <span></span>Label
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" value="1" name="label" checked > 
+                <span></span>Label
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" value="1" name="label" disabled > 
+                <span></span>Label
+            </label>
+        </div>
+        <div class="button-switch">
+            <p class="text" >Switch</p>
+            <label class="switch">
+                <input type="checkbox" >
+                <span class="slider"></span>
+              </label>
+              <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider" ></span>
+              </label>
+              <label class="switch">
+                <input type="checkbox" disabled>
+                <span class="slider" ></span>
+              </label>
+              <label class="switch">
+                <input type="checkbox" disabled checked>
+                <span class="slider"></span>
+              </label>
+        </div>
+        <div class="button-toolip">
+            <p class="text">Tootlip</p>
+            <button class="tooltip">Up
+                <span class="tooltiptext bottom">I’m up above it!</span>
+            </button>
+            <button class="tooltip">Right
+                <span class="tooltiptext right">Slide to the right.</span>
+            </button>
+            <button class="tooltip">Down
+                <span class="tooltiptext top">Get down!</span>
+            </button>
+            <button class="tooltip">Left
+                <span class="tooltiptext left">Slide to the left.</span>
+            </button>
+        </div>
+        <div class="dropdown">
+            
+        </div>          
+    </div>   
+</body>
+</html>

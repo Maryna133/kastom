@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+
+.button{
+    display: flex;
+    flex-direction: row;
+    padding-left: 160px;
+}
+
+.text{
+
+    font-family: Roboto;
+    color: #596172;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.primary{
+    margin-right: 250px;
+}
+.primary-button{
+    padding: 12px 25px;
+    font-family: Roboto; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #FFFFFF;
+    background: #4690FF;
+    border-radius: 20px;
+    border: 1px solid #4690FF;
+}
+
+.primary-button:hover{
+    background: #639EF8;
+    border: 1px solid #639EF8;
+}
+
+.primary-button:active{
+background: #2A7BF5;
+border: 1px solid #2A7BF5 ;
+}
+
+.primary-button-disabled{
+
+    padding: 12px 25px;
+    font-family: Roboto; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #BFD8FC ;
+    background: #BFD8FC;
+}
+
+
+.secondary-button{
+    padding: 12px 25px;
+    font-family: Roboto; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #4690FF;
+    background: #FFFFFF;;
+    border-radius: 20px;
+    border:1px solid #4690FF;
+}
+
+.secondary-button:hover{
+    background: #F1F7FF;
+    color:#639EF8;
+    border: 1px solid #639EF8;
+}
+
+.secondary-button:active{
+    background: #E4F0FF;
+    color:#639EF8;
+    border: 1px solid #2A7BF5
+}
+.secondary-button-disabled{
+    padding: 12px 25px;
+    font-family: Roboto; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+    border-radius: 20px;
+    color: #639EF8;
+    border: 1px solid #4690FF;
+    background-color: #FFFFFF;
+    opacity: 0.3;
+}
+
